@@ -10,17 +10,7 @@
 <body>
 
 
-    <img src="waiter.png" id="waiter" alt="Waiter">
 
-    <script>
-window.addEventListener("scroll", function() {
-    let scrollPosition = window.scrollY;
-
-    let waiter = document.getElementById("waiter");
-
-    waiter.style.left = (scrollPosition / 2) + "px";
-});
-</script>
 <header>
     <img src="evora logo.jpg" alt="Evora Events Logo" class="logo">
 
@@ -141,6 +131,17 @@ function showContact() {
 function closeContact() {
     document.getElementById("contactPopup").style.display = "none";
 }
+</script>
+    <img src="waiter.png" id="waiter" alt="Waiter">
+
+    <script>
+window.addEventListener("scroll", function() {
+    let scrollPosition = window.scrollY;
+
+    let waiter = document.getElementById("waiter");
+
+    waiter.style.left = (scrollPosition / 2) + "px";
+});
 </script>
 
 </body>
