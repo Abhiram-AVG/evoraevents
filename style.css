@@ -242,11 +242,12 @@ margin-top:10px;
 
 .phone a:hover{
     color:white;
-}#waiter{
+}
+#waiter{
     position:fixed;
     bottom:20px;
     left:-150px;
-    width:120px;
+    width:100px;
     z-index:9999;
-    transition:left 0.2s linear;
+    pointer-events:none;
 }
