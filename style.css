@@ -556,3 +556,24 @@ footer{
     }
 
 }
+@media screen and (max-width:768px){
+
+    .hero button{
+
+        width:80%;
+
+        font-size:24px !important;
+
+        padding:20px !important;
+
+        border-radius:60px !important;
+
+        border:3px solid #00ff66 !important;
+
+        box-shadow:
+        0 0 20px #00ff66,
+        0 0 50px #00ff66 !important;
+
+    }
+
+}
