@@ -174,15 +174,15 @@ text-shadow:2px 2px 10px black;
 margin-top:20px;
 }
 
-button{
-background:rgb(19, 96, 4);
-color:black;
-border:none;
-padding:15px 35px;
-font-size:22px;
-border-radius:8px;
-cursor:pointer;
-margin-top:25px;
+
+
+
+
+
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 15px #34d058;
 }
 
 .services{
@@ -387,4 +387,23 @@ margin-top:10px;
     #waiter{
         width:60px;
     }
+}
+
+
+
+.book-btn{
+background:linear-gradient(45deg,#28a745,#34d058) !important;
+color:white !important;
+border:none;
+padding:15px 35px;
+font-size:22px;
+font-weight:bold;
+border-radius:10px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.book-btn:hover{
+transform:scale(1.05);
+box-shadow:0 0 15px #34d058;
 }
