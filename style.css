@@ -289,7 +289,7 @@ font-weight:bold;
 .close-btn{
 width:100%;
 padding:15px;
-background:#0a5104;
+background:#ef2809;
 color:white;
 border:none;
 border-radius:8px;
@@ -307,7 +307,7 @@ margin-top:10px;
     font-weight:500;
 }
 .logo{
-    animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 5s ease-in-out;
 }
 
 @keyframes fadeIn{
