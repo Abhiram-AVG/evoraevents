@@ -433,3 +433,50 @@ transition:0.3s;
 transform:scale(1.05);
 box-shadow:0 0 15px #34d058;
 }
+
+
+
+/* MOBILE FIX */
+
+@media screen and (max-width:768px){
+
+    nav{
+        height:auto;
+        padding:15px 0;
+    }
+
+    .moving-text{
+        display:none;
+    }
+
+    .menu{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        align-items:center;
+        gap:20px;
+        padding:10px;
+    }
+
+    .menu a{
+        font-size:16px;
+        padding:5px;
+    }
+
+    h1{
+        font-size:40px;
+    }
+
+    .tagline{
+        font-size:22px;
+    }
+
+    .phone{
+        font-size:22px;
+    }
+
+    .logo{
+        width:140px;
+        height:140px;
+    }
+}
