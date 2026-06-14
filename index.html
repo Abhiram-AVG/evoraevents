@@ -137,20 +137,20 @@ function closeContact() {
 <script>
 window.addEventListener("scroll", function() {
 
-    let scrollTop = window.pageYOffset;
+    const waiter = document.getElementById("waiter");
 
-    let waiter = document.getElementById("waiter");
+    const scrollHeight =
+        document.documentElement.scrollHeight -
+        window.innerHeight;
 
-    let pageWidth = window.innerWidth;
+    const scrollPercent =
+        window.scrollY / scrollHeight;
 
-    let move = (scrollTop / 5);
+    const maxMove =
+        window.innerWidth - 140;
 
-    if(move > pageWidth){
-        move = pageWidth;
-    }
-
-    waiter.style.left = move + "px";
-
+    waiter.style.left =
+        (scrollPercent * maxMove) + "px";
 });
 </script>
 
