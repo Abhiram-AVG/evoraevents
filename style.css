@@ -375,6 +375,24 @@ margin-top:10px;
     }
 }
 
+
+
+@keyframes moveText{
+    from{
+        left:-100%;
+    }
+
+    to{
+        left:100%;
+    }
+}
+
+
+
+
+
+
+
     h1{
         font-size:32px;
     }
