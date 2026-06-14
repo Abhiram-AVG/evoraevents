@@ -337,3 +337,70 @@ margin-top:10px;
     z-index:9999;
     pointer-events:none;
 }
+/* MOBILE RESPONSIVE */
+
+@media screen and (max-width: 768px){
+
+```
+.logo{
+    width:140px;
+    height:140px;
+}
+
+h1{
+    font-size:28px;
+}
+
+.tagline{
+    font-size:16px;
+}
+
+.phone{
+    font-size:18px;
+}
+
+nav{
+    height:auto;
+    padding:15px 0;
+}
+
+.menu{
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.menu a{
+    font-size:18px;
+}
+
+.moving-text{
+    font-size:18px;
+}
+
+.hero{
+    height:auto;
+    padding:100px 20px;
+}
+
+.hero h2{
+    font-size:32px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.service-box{
+    width:90%;
+}
+
+.popup-content{
+    width:90%;
+}
+
+#waiter{
+    width:70px;
+}
+```
+
+}
