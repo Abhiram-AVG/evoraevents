@@ -48,14 +48,100 @@ color:gold;
 font-size:24px;
 }
 
+
+
+
+
 nav{
-background:#111;
-text-align:center;
-padding:20px;
-border-top:2px solid gold;
-border-bottom:2px solid gold;
+    position:relative;
+    height:90px;
+    background:black;
+    overflow:hidden;
+
+    border-top:2px solid gold;
+    border-bottom:2px solid gold;
+
+    box-shadow:
+    0 0 10px gold,
+    0 0 20px gold;
 }
 
+/* Moving Text */
+
+.moving-text{
+    position:absolute;
+    top:50%;
+    left:-100%;
+
+    transform:translateY(-50%);
+
+    color:rgba(255,215,0,0.25);
+
+    font-size:28px;
+    font-weight:bold;
+
+    white-space:nowrap;
+
+    animation:moveText 15s linear infinite;
+
+    z-index:1;
+}
+
+/* Menu */
+
+.menu{
+    position:relative;
+    z-index:2;
+
+    height:100%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    font-size:24px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.menu a:hover{
+    color:gold;
+    transform:scale(1.1);
+}
+
+/* Animation */
+
+@keyframes moveText{
+
+    from{
+        left:-100%;
+    }
+
+    to{
+        left:100%;
+    }
+
+}
+
+
+
+
+
+
+
+@keyframes moveStars{
+    from{
+        transform:translateX(-100%);
+    }
+    to{
+        transform:translateX(100%);
+    }
+}
 nav a{
 color:white;
 text-decoration:none;
@@ -89,7 +175,7 @@ margin-top:20px;
 }
 
 button{
-background:gold;
+background:rgb(222, 28, 6);
 color:black;
 border:none;
 padding:15px 35px;
